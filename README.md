@@ -1,16 +1,111 @@
-# React + Vite
+# Tour & Travel Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and modern Tour & Travel website built using **React.js** and **Vite**. The project provides users with information about travel destinations, trips, services, and contact details through an attractive user interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Responsive navigation bar
+* Hero section with banner
+* Popular destinations section
+* Trip packages section
+* About page
+* Services page
+* Contact page
+* Reusable React components
+* Responsive design using CSS
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* Vite
+* JavaScript (ES6+)
+* HTML5
+* CSS3
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src
+├── components
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Destination.jsx
+│   ├── Trip.jsx
+│   ├── Footer.jsx
+│   └── ...
+├── routes
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Services.jsx
+│   └── Contact.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## Installation
+
+### Clone the repository
+
+```bash
+git clone <repository-link>
+```
+
+### Navigate to the project directory
+
+```bash
+cd tour-travel
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the development server
+
+```bash
+npm run dev
+```
+
+The application will run on:
+
+```text
+http://localhost:5173/
+```
+
+## Pages
+
+* Home
+* About
+* Services
+* Contact
+
+## Learning Outcomes
+
+This project helped in understanding:
+
+* React Components
+* Props
+* Component Reusability
+* React Project Structure
+* Routing Concepts
+* State Management Basics
+* Responsive Web Design
+* Working with Vite
+
+## Future Improvements
+
+* Add booking functionality
+* Integrate backend APIs
+* User authentication
+* Search and filtering
+* Payment gateway integration
+* Admin dashboard
+
+## Author
+
+**Ahsan Mustafa**
+
+Built as part of the **DevWeekends Fellowship – Full Stack AI Engineer Roadmap**.
